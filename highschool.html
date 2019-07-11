@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first HTML page</title>
+</head>
+
+<style>
+    h1{color:white;text-align:center;font-size: 100px}
+    p{color:white;font-size:60px;text-align:center;}
+    a{color:aqua;}
+    .blink_text {
+
+        animation:1s blinker linear infinite;
+        -webkit-animation:1s blinker linear infinite;
+        -moz-animation:1s blinker linear infinite;
+
+        color: springgreen;
+    }
+
+    @-moz-keyframes blinker {
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+    }
+
+    @-webkit-keyframes blinker {
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+    }
+
+    @keyframes blinker {
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+    }
+
+</style>
+
+<body background="268494008425119744.png">
+    <h1>Darren is ignorant and abusive</h1>
+
+<p>
+    <a href = "https://twitter.com/33284x">Here is a mongo's twitter.</a>
+</p>
+
+
+    <p class="blink_text"><b>**BUY FREE URANIUM NOW**</b></p>
+
+</body>
+</html>

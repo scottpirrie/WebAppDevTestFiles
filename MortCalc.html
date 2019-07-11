@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mortgage Calculator</title>
+</head>
+<body>
+<h1>
+    Mortgage Calculator
+</h1>
+
+<form action="MortCalc.php" method="post">
+
+    <p>
+        Loan Amount £<input type="text" name = "loanAmount"/>
+    </p>
+
+    <p>
+        Interest Rate <input type="text" name = "interestRate" step="0.01"/>
+    </p>
+
+    <p>
+        Term <input type="text" name = "term"/> (years)
+    </p>
+
+    <p>
+        Mortgage Arrangement Fee <input type="number" name = "MAFee" />
+    </p>
+
+    <p>
+        Yes <input type = 'radio' name ="MAFeeChecked" value= "yes" />
+
+        No <input type = 'radio' name ="MAFeeChecked" value= "no" checked/>
+    </p>
+
+    <p>
+        <input type = "submit" value = "Calculate"/>
+    </p>
+
+</form>
+
+</body>
+</html>
